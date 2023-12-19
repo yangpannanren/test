@@ -384,7 +384,7 @@ figcaption { line-height: 1.4; }
         height: 200px;
         float: right;
         margin-right: 0px; /* 添加右侧外边距，使图片与环绕内容保持一定距离 */
-        margin-top: -100px; /* 添加下方外边距，使图片与下方内容保持一定距离 */
+        margin-top: -120px; /* 添加下方外边距，使图片与下方内容保持一定距离 */
     }
     .tm-mb-65 a:hover>img {
         /*鼠标放在a上图片显示*/
