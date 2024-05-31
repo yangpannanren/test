@@ -55,7 +55,7 @@ hr {
 }
 
 .tm-site-header {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -73,6 +73,7 @@ hr {
 .tm-site-logo img{
     width: 150px;
     height: 150px;
+    border-radius: 50%;
 }
 
 
@@ -88,7 +89,7 @@ hr {
     justify-content: space-between;
 }
 
-.tm-nav { margin-bottom: 100px; }
+.tm-nav { margin-bottom: 10px; }
 
 .tm-nav-item {
     list-style: none;
@@ -231,7 +232,7 @@ ul {
 	transform: translate3d(0,0,0);
 }
 
-.tm-post { margin-bottom: 75px; }
+.tm-post { margin-bottom: 45px; }
 
 .tm-new-badge {
     top: 25px;
@@ -374,17 +375,23 @@ figcaption { line-height: 1.4; }
     .tm-mb-65 a {
         text-decoration: none;
         font-size: 20px;   
+        position: relative;
     }
     .tm-mb-65 a:hover {
         text-decoration: none;
     }
     .tm-mb-65 img {
+        position: absolute;
+        left: 50px;
+        top: -50px;
         display: none;
         width: 200px;
         height: 200px;
-        float: right;
-        margin-right: 0px; /* 添加右侧外边距，使图片与环绕内容保持一定距离 */
-        margin-top: -120px; /* 添加下方外边距，使图片与下方内容保持一定距离 */
+        /* float: right; */
+        /* margin-right: 0px;  */
+        /* 添加右侧外边距，使图片与环绕内容保持一定距离 */
+        /* margin-top: 0px;  */
+        /* 添加下方外边距，使图片与下方内容保持一定距离 */
     }
     .tm-mb-65 a:hover>img {
         /*鼠标放在a上图片显示*/
